@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+ margin-top: 200px;
+  font-size: 120px;
+
+}
+html, body {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  background-color: #d3d3d3;
+}
+
+
+.searchbar{
+  margin: auto;
+  max-width: 300px;
+}
+form.searchbar input[type=text]{
+  padding: 20px;
+  font-size: 17px;
+  border: 1px white;
+  float: left;
+  width: 80%
+  background: #f1f1f1;
+}
+form.searchbar button {
+  float: left;
+  width: 20%;
+  padding: 23px;
+  background:  black;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+}
+form.searchbar button:hover{
+  background:  #0b7dda;
+}
